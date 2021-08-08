@@ -3,21 +3,31 @@
 
 html {
   font-size: 62.5%;
-  background-color: $purple;
-  background: linear-gradient($navy 10%, $purple 100%);
   color: $white;
+  font-family: $body-font;
 }
 
-.container {
+// canvas {
+//   font-family: $body-font;
+// }
+
+.headerContainer {
   position: absolute;
-  top: 0;
-  right: 35%;
+  // top: 0;
+  // right: 35%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  text-decoration: none;
 }
 
 h1 {
-  font-size: 20rem;
+  font-family: $header-font;
+  font-size: 15rem;
+  text-transform: uppercase;
 }
 
 h3 {
