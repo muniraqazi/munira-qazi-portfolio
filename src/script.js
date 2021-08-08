@@ -10,7 +10,8 @@ let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext("2d");
 let width = canvas.width = window.innerWidth;
 let height = canvas.height = window.innerHeight;
-let str = "ﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ A+jk jk:2 @dfs 17 tr YY ufds MQ P87 #18 $!& ^dfs $Ew er JH # $ * . (! ;) ,: : ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍ";
+// let str = "A+jk jk:2 @dfs 17 tr YY ufds MQ P87 #18 $!& ^dfs $Ew er JH # $ * . (! ;) ,: : ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ";
+let str = "munira qazi #18 $!& ^ $Ew er # $ * . (! ;) ,: : ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ"
 let matrix = str.split("");
 let font = 15;
 let col = width / font;
@@ -34,6 +35,7 @@ const draw = () => {
   ctx.font = `${font}px system-ui`;
 
   for(let i = 0; i < arr.length; i++) {
+    // let txt = matrix.length;
     let txt = matrix[Math.floor(Math.random() * matrix.length)];
     ctx.fillText(txt, i * font, arr[i] * font);
 
@@ -45,6 +47,7 @@ const draw = () => {
 }
 
 //speed of falling characters
-setInterval(draw, 30);
+setInterval(draw, 60);
 
 window.addEventListener("resize", () => location.reload());
+
