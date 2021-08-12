@@ -1,4 +1,4 @@
-const phrases = ["CODE", "REACT", "JAVASCRIPT", "HTML", "SASS", "CSS"];
+const phrases = ["REACT", "JAVASCRIPT", "HTML", "SASS", "CSS"];
 
 const el = document.querySelector(".text");
 

@@ -1,6 +1,6 @@
 // console.log('hello????');
 // CREDITS
-// idea - https://codepen.io/unframework/pen/pqorjJ
+// matrix idea - https://codepen.io/unframework/pen/pqorjJ
 // code tutoiral - https://www.youtube.com/watch?v=JfLNCMp_z4o
 // gradient - https://www.w3schools.com/tags/canvas_fillstyle.asp
 // https://cssgradient.io/
@@ -11,7 +11,7 @@ let ctx = canvas.getContext("2d");
 let width = canvas.width = window.innerWidth;
 let height = canvas.height = window.innerHeight;
 // let str = "A+jk jk:2 @dfs 17 tr YY ufds MQ P87 #18 $!& ^dfs $Ew er JH # $ * . (! ;) ,: : ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ";
-let str = "munira qazi #18 $!& ^ $Ew er # $ * . (! ;) ,: : ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ"
+let str = "!# $ %&' ()*+, -./0 12 34 56 7 8 9: ;<= >?ABCD EFGHI JKLMNOP QRST UVWX YZ ^_`a bcd ef ghi jkl mno pq rst uvw xyz ~ ﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎ"
 let matrix = str.split("");
 let font = 15;
 let col = width / font;
