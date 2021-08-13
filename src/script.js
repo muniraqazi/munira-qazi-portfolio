@@ -47,7 +47,7 @@ const draw = () => {
 }
 
 //speed of falling characters
-setInterval(draw, 60);
+setInterval(draw, 50);
 
 window.addEventListener("resize", () => location.reload());
 
