@@ -22,6 +22,7 @@ a {
 
 canvas {
   z-index: -100;
+  pointer-events: none;
 }
 
 .wrapper {
