@@ -763,6 +763,9 @@ ul.socialIcons li a {
   margin: 0;
 }
 
+.projects {
+  z-index: 2000;
+}
 .projects a {
   font-size: 1.8rem;
   border: 2px solid white;
