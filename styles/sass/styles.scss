@@ -340,7 +340,7 @@ main {
 }
 
 #bounce {
-  margin: 10%;
+  margin: 5%;
   -webkit-animation: bounce 3s infinite ease-in-out;
   -o-animation: bounce 3s infinite ease-in-out;
   -ms-animation: bounce 3s infinite ease-in-out; 
@@ -351,5 +351,113 @@ main {
   }
 }
 
+ul.socialIcons {
+  margin-top: 40px;
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  li {
+    text-decoration: none;
+    padding: 0 2%;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+// .linkedIn:hover {
+//   background: #16dbe7;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-transition: 0.6s;
+//   transition: 0.6s;
+// }
+
+// .github:hover {
+//   background: #8d1dfd;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-transition: 0.6s;
+//   transition: 0.6s;
+// }
+
+// .twitter:hover {
+//   background:#e913a4;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-transition: 0.6s;
+//   transition: 0.6s;
+// }
+
+.projects {
+  a {
+    font-size: 1.8rem;
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 8px;
+  }
+  a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.contactMe {
+  font-size: 1.8rem;
+  margin-left: 25%;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  form {
+    .input,
+    .msg,
+    .submitBtn {
+      display: flex;
+      flex-direction: column;
+    }
+    max-width: 60%;
+  }
+  input, textArea {
+    color: $white;
+    font-family: $body-font;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 4%;
+    // width: 60%;
+  }
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  button {
+    font-size: 1.8rem;
+    font-family: $body-font;
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    width: 30%;
+  }
+  :hover {
+    background-color: rgba(255, 255, 255, 0.5); }
+}
 
 

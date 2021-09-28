@@ -22,6 +22,7 @@
               <li><a class="hoverLink" href="#about">About</a></li>
               <li><a class="hoverLink" href="#projects">Projects</a></li>
               <li><a class="hoverLink" href="#skills">Skills</a></li>
+              <li><a class="hoverLink" href="#contactMe">Contact</a></li>
               <!-- <li><a class="hoverLink" href="#contact">Contact</a></li> -->
             </ul>
           </nav>
@@ -43,6 +44,29 @@
             <i class="fas fa-chevron-right"></i>
           </span>
         </div>
+
+        <ul class="socialIcons">
+
+          <li class="linkedIn">
+            <a href="https://www.linkedin.com/in/munira-qazi-2827361a4/" target="_blank"> 
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="github">
+            <a href="https://github.com/muniraqazi" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+
+          <li class="twitter">
+            <a href="https://twitter.com/muniraqazi98" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+
+        </ul>
+        <!-- end of social icons div -->
 
         <div class="bounce" id="bounce">
           <a href="#about"><i class="fas fa-angle-double-down fa-9x"></i></a>
@@ -86,8 +110,8 @@
                   <i class="fab fa-css3-alt projectIcon"></i>
                   <i class="fab fa-sass projectIcon"></i>
                   <p>A multi-page PSD conversion that is fully responsive on all screen sizes.</p>
-                  <a href="https://nostalgic-agnesi-cd3f10.netlify.app/">Live</a>
-                  <a href="https://github.com/muniraqazi/resturant-mall-project-one">GitHub</a>
+                  <a href="https://nostalgic-agnesi-cd3f10.netlify.app/" target="_blank">Live</a>
+                  <a href="https://github.com/muniraqazi/resturant-mall-project-one" target="_blank">GitHub</a>
                 </div>
 
                 <div class="projectContainer empty proRight"></div>
@@ -104,24 +128,24 @@
                   <i class="fab fa-js projectIcon"></i>
                   <i class="fas fa-database projectIcon"></i>
                   <p>Pokemon API that allows you to search for any of the original 150 Pokemon.</p>
-                  <a href="https://awesome-leavitt-154707.netlify.app/">Live</a>
-                  <a href="https://github.com/Project-StefanMunira/Project-2">GitHub </a>
+                  <a href="https://awesome-leavitt-154707.netlify.app/" target="_blank">Live</a>
+                  <a href="https://github.com/Project-StefanMunira/Project-2" target="_blank">GitHub </a>
                 </div>
                 <div class="numberContainer">
                   <h4>3.0</h4>
                 </div>
 
                 <div class="projectContainer proLeft">
-                  <h5>Shop</h5>
+                  <h5>Trivia Time</h5>
                   <i class="fab fa-html5 projectIcon"></i>
                   <i class="fab fa-css3-alt projectIcon"></i>
                   <i class="fab fa-sass projectIcon"></i>
                   <i class="fab fa-js projectIcon"></i>
                   <i class="fab fa-react projectIcon"></i>
                   <i class="devicon-firebase-plain projectIcon"></i>
-                  <p>A simple yet elegant shopping experience.</p>
-                  <a href="https://wizardly-goldstine-6cf3e3.netlify.app/">Live</a>
-                  <a href="https://github.com/muniraqazi/munira-qazi-project-three">GitHub</a>
+                  <p>A multiplayer trivia game using Firebase Realtime Database, allowing multiple concurent games to be played.</p>
+                  <a href="https://triviatimecollective.netlify.app/" target="_blank">Live</a>
+                  <a href="https://github.com/triviaTimeCollective/triviaTime" target="_blank">GitHub</a>
                 </div>
 
                 <div class="projectContainer empty proRight"></div>
@@ -131,16 +155,17 @@
                 <div class="projectContainer empty proLeft"></div>
 
                 <div class="projectContainer proRight">
-                  <h5>Trivia Time</h5>
+                  <h5>Ecommerce Store</h5>
                   <i class="fab fa-html5 projectIcon"></i>
                   <i class="fab fa-css3-alt projectIcon"></i>
                   <i class="fab fa-sass projectIcon"></i>
                   <i class="fab fa-js projectIcon"></i>
                   <i class="fab fa-react projectIcon"></i>
                   <i class="devicon-firebase-plain projectIcon"></i>
-                  <p>A multiplayer trivia game using Firebase Realtime Database, allowing multiple concurent games to be played.</p>
-                  <a href="https://triviatimecollective.netlify.app/">Live</a>
-                  <a href="https://github.com/triviaTimeCollective/triviaTime">GitHub</a>
+                  <p> < comingSoon.../> </p>
+                  <!-- <a href="https://wizardly-goldstine-6cf3e3.netlify.app/" target="_blank">Live</a>
+                  <a href="https://github.com/muniraqazi/munira-qazi-project-three" target="_blank">GitHub</a> -->
+
                 </div>
               </div> <!-- end of projectMainContainer -->
             </section>
@@ -214,24 +239,30 @@
           </div>
           <!-- end of skills section -->
       
-          <!-- <div class="wrapper">
-            <section id="contact" class="contact">
-              <h4>contact me! </h4>
+          <div class="wrapper">
+            <h4>contact me. </h4>
+            <section id="contactMe" class="contactMe">
               <form>
-                <label for="firstName">First Name: </label>
-                <input type="text" id="firstName" name="firstName" placeholder="Your name">
-      
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" placeholder="name@email.com">
-      
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" placeholder="Tell me something..."></textarea>
-      
-                <input type="submit" value="Submit">
+                <div class="input">
+                  <label for="name">Name: </label>
+                  <input type="text" id="firstName" name="name">
+                  
+                  <label for="email">Email: </label>
+                  <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="msg">
+                  <label for="message">Message: </label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                
+                <div class="submitBtn">
+                 <button>Submit</button>
+                </div>
               </form>
             </section>
           </div>
-        </section> -->
+        </section>
         <!-- end of main section -->
       </main>
 
