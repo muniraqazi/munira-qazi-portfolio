@@ -708,7 +708,7 @@ section {
   }
 }
 #bounce {
-  margin: 10%;
+  margin: 5%;
   -webkit-animation: bounce 3s infinite ease-in-out;
   animation: bounce 3s infinite ease-in-out;
 }
@@ -716,4 +716,107 @@ section {
   #bounce {
     margin-top: 7%;
   }
+}
+
+ul.socialIcons {
+  margin-top: 40px;
+  font-size: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+ul.socialIcons a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul.socialIcons li {
+  text-decoration: none;
+  padding: 0 2%;
+}
+ul.socialIcons li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.projects a {
+  font-size: 1.8rem;
+  border: 2px solid white;
+  padding: 2%;
+  border-radius: 8px;
+}
+.projects a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contactMe {
+  font-size: 1.8rem;
+  margin-left: 25%;
+}
+.contactMe form {
+  max-width: 60%;
+}
+.contactMe form .input,
+.contactMe form .msg,
+.contactMe form .submitBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactMe input, .contactMe textArea {
+  color: #fff;
+  font-family: "Cutive Mono", monospace;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-bottom: 4%;
+}
+
+.submitBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.submitBtn button {
+  font-size: 1.8rem;
+  font-family: "Cutive Mono", monospace;
+  border: 2px solid white;
+  padding: 2%;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  width: 30%;
+}
+.submitBtn :hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
